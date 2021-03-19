@@ -1,6 +1,8 @@
-# PySpark-ETL-Project
-A guide on how to setup/build your next Data pipeline with Databricks Connect!
-## About
+PySpark Databricks Project
+=======
+
+---
+## Features
 This project provides a sample of databricks-connect PySpark applications with best practices and useability in mind.
 
 This is project is designed to provide:
@@ -10,6 +12,40 @@ This is project is designed to provide:
 - Packaging and Submitting to Cluster with Wheel
 - Cl Building for deploying to Databricks Clusters
 
+---
+
 ## Setup
-We need to first create a Conda Environment:
+Clone the repo to your desktop and open Windows Command Line Interface.
+
+Create a Conda Environment:
+
 ``conda create --name dbconnectguide python=3.7``
+
+For information on conda please use the provided link:
+[Conda Docs](https://docs.conda.io/projects/conda/en/latest/)
+
+Activate the newly created environment:
+
+```conda activate dbconnectguide```
+
+**IMPORTANT**: Open the requirements.txt file located in the projects root folder and ensure that the databricks-connect version matches your cluster's runtime!
+
+Install requirements.txt to your Envrionment:
+
+```pip install -r requirements.txt```
+
+Setup databricks-connect:
+```databricks-connect configure```
+
+For information on setting up databricks-connect refer to the official documentation:
+[Databricks Connect Docs](https://docs.databricks.com/dev-tools/databricks-connect.html)
+
+Now from within the IDE of your choice open the cloned repo and configure your interpreter settings.
+Choose the newly created conda environment as your interpreter.
+
+
+.
+![Interpreter Settings](https://i.imgur.com/taGsjSV.png)
+
+---
+
