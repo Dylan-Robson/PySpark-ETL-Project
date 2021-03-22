@@ -3,7 +3,7 @@ PySpark Databricks Project
 
 ---
 ## Features
-This project provides a sample of databricks-connect PySpark applications with best practices and useability in mind.
+This project provides a sample of databricks-connect PySpark applications with best practices and usability in mind.
 
 This is project is designed to provide:
 - Local IDE Development & Debugging
@@ -49,3 +49,5 @@ Choose the newly created conda environment as your interpreter.
 
 ---
 
+## License
+This is an open source repo and should be considered as so.
